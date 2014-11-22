@@ -30,7 +30,7 @@ if ( ! defined ( 'ABSPATH' ) ) {
 }
 
 // TODO: change 'Widget_Name' to the name of your plugin
-class Widget_Name extends WP_Widget {
+class TW_Latest extends WP_Widget {
 
     /**
      * @TODO - Rename "widget-name" to the name your your widget
@@ -46,7 +46,7 @@ class Widget_Name extends WP_Widget {
      *
      * @var      string
      */
-    protected $widget_slug = 'widget-name';
+    protected $widget_slug = 'tw-latest';
 
 	/*--------------------------------------------------*/
 	/* Constructor
@@ -68,10 +68,10 @@ class Widget_Name extends WP_Widget {
 		// TODO: update description
 		parent::__construct(
 			$this->get_widget_slug(),
-			__( 'Widget Name', $this->get_widget_slug() ),
+			__( 'TheatreWiki Latest', $this->get_widget_slug() ),
 			array(
 				'classname'  => $this->get_widget_slug().'-class',
-				'description' => __( 'Short description of the widget goes here.', $this->get_widget_slug() )
+				'description' => __( 'A widget showing the latest articles added to TheatreWiki.ca', $this->get_widget_slug() )
 			)
 		);
 
@@ -260,4 +260,4 @@ class Widget_Name extends WP_Widget {
 } // end class
 
 // TODO: Remember to change 'Widget_Name' to match the class name definition
-add_action( 'widgets_init', create_function( '', 'register_widget("Widget_Name");' ) );
+add_action( 'widgets_init', create_function( '', 'register_widget("TW_Latest");' ) );
