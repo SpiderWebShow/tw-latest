@@ -4,24 +4,24 @@
  *
  * The WordPress Widget Boilerplate is an organized, maintainable boilerplate for building widgets using WordPress best practices.
  *
- * @package   Widget_Name
- * @author    Your Name <email@example.com>
- * @license   GPL-2.0+
- * @link      http://example.com
- * @copyright 2014 Your Name or Company Name
+ * @package   Latest TheatreWiki.ca Adds
+ * @author    Graham F. Scott
+ * @license   MIT
+ * @link      http://gfscott.com
+ * @copyright 2014 Graham F. Scott
  *
  * @wordpress-plugin
- * Plugin Name:       @TODO
+ * Plugin Name:       Latest TheatreWiki Articles
  * Plugin URI:        @TODO
- * Description:       @TODO
+ * Description:       Provides a list of the most recent additions to TheatreWiki.ca
  * Version:           1.0.0
- * Author:            @TODO
- * Author URI:        @TODO
- * Text Domain:       widget-name
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Author:            Graham F. Scott
+ * Author URI:        http://gfscott.com
+ * Text Domain:       tw-latest
+ * License:           MIT
+ * License URI:       http://opensource.org/licenses/MIT
  * Domain Path:       /lang
- * GitHub Plugin URI: https://github.com/<owner>/<repo>
+ * GitHub Plugin URI: https://github.com/SpiderWebShow/tw-latest
  */
  
  // Prevent direct file access
