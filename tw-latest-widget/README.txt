@@ -1,15 +1,14 @@
-=== Widget Name ===
+=== Latest TheatreWiki Additions ===
 
-Contributors: username1, username2 (this should be a list of wordpress.org userid's)
-Donate link: http://example.com/
+Contributors: gfscott
 Tags: widget, boilerplate
 Requires at least: 3.3.1
 Tested up to: 3.8.1
 Stable tag: 4.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: MIT
+License URI: http://opensource.org/licenses/MIT
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+A plugin to add a widget displaying the most recent additions to TheatreWiki.ca
 
 == Description ==
 
