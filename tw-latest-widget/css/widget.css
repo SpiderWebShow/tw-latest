@@ -1,0 +1,23 @@
+/* This stylesheet is used to style the public view of the widget. */
+
+.tw-latest {
+	margin: 0;
+	padding: 0;
+}
+
+.tw-latest li {
+	margin: 0;
+	margin-bottom: 1.2em;
+	padding: 0;
+	list-style: none;
+}
+
+.tw-latest-hed {
+	display: block;
+	font-weight: bold;
+}
+
+.tw-latest time {
+	font-size: 0.75em;
+	color: #bbb;
+}
